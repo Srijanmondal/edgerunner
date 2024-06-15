@@ -1,6 +1,6 @@
 // preload
 window.onload = function(){
-    preloadImagesFromDirectory('src/');
+    preloadImagesFromDirectory('src/img/');
 }
 
 // Files 
