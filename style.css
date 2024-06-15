@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Space+Grotesk:wght@300..700&display=swap');
+body{
+  margin: 0;
+  height: 100%;
+  width: 100vw;
+  background-color: #EEF7FF;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.container{
+  height: 300px;
+  width: 80%;
+  background-color: #fafafa;
+  margin: 70px auto 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.icon{
+  height: 100px;
+  width: 100px;
+  background-color: #9cffff;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 95px;
+}
+.profile-pic{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%
+}
+.space{
+  height: 50px;
+}
+.text{
+  text-align: center;
+}
+.heading{
+  font-size: 20px;
+  font-family: "Satisfy", cursive;
+}
+.sub-heading{
+  font-size: 13px;
+  font-family: "Satisfy", cursive;
+}
+.address{
+  text-align: center;
+}
+.place{
+  font-size: 10px;
+}
+.social{
+  height: 30px;
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+}
+.website, .linkedin, .github, .instagram, .coffee{
+  margin: auto;
+}
+.player{
+  height: 90px;
+  width: 250px;
+  background-color: #ffffc9;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.banner{
+  height: 70px;
+  width: 70px;
+  background-color: #00ff00;
+  border-radius: 10px;
+  margin: 10px 5px 10px 10px;
+}
+.controls{
+  height: 70px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 10px 5px 10px 5px;
+  text-align: center;
+}
+.song-title{
+  font-size: 15px;
+  margin: 5px auto;
+}
+.artist{
+  font-size: 8px;
+  margin: 0 auto;
+}
+.btns{
+  height: 30px;
+  width: 70%;
+  background-color: #ffffc9;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.previous, .play-pause, .next{
+  margin: auto;
+  cursor: pointer;
+}
+.tagdiv{
+  height: fit-content;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.tag{
+  font-size: 10px;
+}
+a:link{
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: #8aff8a;
+}
+.projects{
+  height: 160px;
+  width: 80%;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.head-txt{
+  height: 20px;
+  width: 80%;
+  font-size: 20px;
+  font-family: "Satisfy", cursive;
+  text-align: center;
+  margin: auto;
+}
+.project-container{
+  height: 120px;
+  width: 90%;
+  background-color: #f0f0f0;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+.project-box{
+  height: 100px;
+  width: 90px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin: auto 5px;
+  text-align: center;
+}
+.project-img{
+  height: 80px;
+  width: 90px;
+  border-radius: 10px;
+}
+.p-title{
+  font-size: 10px;
+}
+.copyright{
+  height: 20px;
+  width: 80%;
+  font-size: 10px;
+  margin: auto;
+  text-align: center;
+}
