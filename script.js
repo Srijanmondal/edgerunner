@@ -1,3 +1,8 @@
+// preload
+window.onload = function(){
+    preloadImagesFromDirectory('src/');
+}
+
 // Files 
 const Sunflower = new Audio("src/mp3/Sunflower.mp3") 
 const Lustforlife = new Audio("src/mp3/Lust for life.mp3")
