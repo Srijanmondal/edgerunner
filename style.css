@@ -148,6 +148,9 @@ a:hover {
   flex-direction: row;
   overflow-x: scroll;
 }
+.project-container::-webkit-scrollbar {
+  display: none;
+}
 .project-box{
   height: 100px;
   width: 90px;
