@@ -9,7 +9,7 @@ const Lustforlife = new Audio("src/mp3/Lust for life.mp3")
 const Perfect = new Audio("src/mp3/Perfect.mp3")
 const Somethingjustlikethis = new Audio("src/mp3/Something just like this.mp3")
 const Saveyourtears = new Audio("src/mp3/Save your Tears.mp3")
-const chemtrails = new Audio("src/mp3/chemtrails.mp3")
+const chemtrails = new Audio("src/mp3/Chemtrails.mp3")
 const itsnotsobad = new Audio("src/mp3/itsnotsobad.mp3")
 
 // Elements 
