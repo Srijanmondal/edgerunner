@@ -9,6 +9,8 @@ const Lustforlife = new Audio("src/mp3/Lust for life.mp3")
 const Perfect = new Audio("src/mp3/Perfect.mp3")
 const Somethingjustlikethis = new Audio("src/mp3/Something just like this.mp3")
 const Saveyourtears = new Audio("src/mp3/Save your Tears.mp3")
+const chemtrails = new Audio("src/mp3/chemtrails.mp3")
+const itsnotsobad = new Audio("src/mp3/itsnotsobad.mp3")
 
 // Elements 
 const prevbtn = document.querySelector(".previous")
@@ -22,8 +24,10 @@ const playpauseicon = document.querySelector("#play-pause-icon")
 //Songs 
 const songs = [
   {ele: Sunflower, audioName: "Sunflower", artist: "Post Malone", img: "src/img/Sunflower.jpg"},
+  {ele: chemtrails, audioName: "Chemtrails", artist: "Lana Del Rey", img: "src/img/chemtrails.jpg"},
   {ele: Lustforlife, audioName: "Lust for life", artist: "Lana Del Rey & The Weeknd", img: "src/img/lust.jpg"},
   {ele: Perfect, audioName: "Perfect", artist: "Ed Sheeran", img: "src/img/Perfect.jpg"},
+  {ele: itsnotsobad, audioName: "It's not so bad", artist: "Ilkay Sencan and Yves V", img: "src/img/itsnotsobad.jpg"},
   {ele: Somethingjustlikethis, audioName: "Something like this", artist: "Cold play", img: "src/img/smtjstlktis.png"},
   {ele: Saveyourtears, audioName: "Save your tears", artist: "The Weeknd", img: "src/img/save your tears.jpg"},
 ];
