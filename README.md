@@ -1,2 +1,3 @@
 # edgerunner 
-this is a sample text 
+Hey 👋 
+it's a onelink page for the dev
