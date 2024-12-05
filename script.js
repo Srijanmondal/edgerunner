@@ -29,7 +29,6 @@ const playpauseicon = document.querySelector("#play-pause-icon")
 
 //Songs 
 const songs = [
-  {ele: Themachine, audioName: "The Machine", artist: "Aurora Olivas & Reed Wonder ", img: "src/img/music/themachine.jpg"},
   {ele: Sunflower, audioName: "Sunflower", artist: "Post Malone", img: "src/img/music/Sunflower.jpg"},
   {ele: Chemtrails, audioName: "Chemtrails", artist: "Lana Del Rey", img: "src/img/music/chemtrails.jpg"},
   {ele: Lustforlife, audioName: "Lust for life", artist: "Lana Del Rey & The Weeknd", img: "src/img/music/lust.jpg"},
