@@ -17,6 +17,7 @@ const Thenightwemet= new Audio("src/mp3/nightwemet.mp3")
 const Softcore= new Audio("src/mp3/softcore.mp3")
 const Unwritten= new Audio("src/mp3/unwritten.mp3")
 const Themachine= new Audio("src/mp3/themachine.mp3")
+const Baptized= new Audio("src/mp3/Baptized.mp3")
 
 // Elements 
 const prevbtn = document.querySelector(".previous")
