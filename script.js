@@ -12,7 +12,8 @@ const imageUrls = ["src/img/music/Perfect.jpg",
                   "src/img/music/smtjstlktis.png",
                   "src/img/music/softcore.jpg",
                   "src/img/music/themachine.jpg",
-                  "src/img/music/unwritten.jpg",]
+                  "src/img/music/unwritten.jpg",];
+const preloadedImages = preloadImages(imageUrls);
 
 
 // Files 
