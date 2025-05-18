@@ -1,7 +1,19 @@
 // preload
-window.onload = function(){
-    preloadImagesFromDirectory('src/img/music/');
-}
+const imageUrls = ["src/img/music/Perfect.jpg",
+                  "src/img/music/Sunflower.jpg",
+                  "src/img/music/chemtrails.jpg",
+                  "src/img/music/dawnfm.jpg",
+                  "src/img/music/hurryuptomorrow.jpg",
+                  "src/img/music/itsnotsobad.jpg",
+                  "src/img/music/loveonme.jpg",
+                  "src/img/music/lust.jpg",
+                  "src/img/music/nightwemet.jpg",
+                  "src/img/music/save your tears.jpg",
+                  "src/img/music/smtjstlktis.png",
+                  "src/img/music/softcore.jpg",
+                  "src/img/music/themachine.jpg",
+                  "src/img/music/unwritten.jpg",]
+const preloadedImages = preloadImages(imageUrls);
 
 // Files 
 const Sunflower = new Audio("src/mp3/Sunflower.mp3") 
